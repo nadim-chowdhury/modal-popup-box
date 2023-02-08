@@ -1,0 +1,44 @@
+.body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: antiquewhite;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 60%;
+  position: fixed;
+  margin-top: 440px;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  z-index: 999;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: coral;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
